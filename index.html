@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Create Your Own Trip — road trips planned around you</title>
+<meta name="description" content="Answer a few questions and get a day-by-day road trip: where to sleep, what to see, drive times, hidden gems and a checklist.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#1d3557">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23b4572d'/%3E%3Cpath d='M6 24 L13 12 L18 19 L21 15 L26 24Z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="sitebar"><div class="wrap">
+  <a class="logo" href="#"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#b4572d"/><path d="M6 24 L13 12 L18 19 L21 15 L26 24Z" fill="#fff"/></svg>Create Your Own Trip</a>
+  <nav><a class="hide-s" href="#samples">Inspiration</a><a class="hide-s" href="#inspire">Surprise me</a><a href="#about">Disclaimer</a><a class="btn primary" href="#plan?new=1">Plan a trip</a></nav>
+</div></header>
+
+<div id="home" class="screen"></div>
+<div id="wizard" class="screen wiz" hidden></div>
+<div id="trip" class="screen" hidden>
+  <div id="tripCover"></div>
+  <header class="top"><div class="wrap">
+    <div><div class="sample-flag" id="tripFlag"></div><h2 class="trip-name" id="tripName"></h2><div class="trip-meta" id="tripMeta"></div></div>
+    <div class="top-actions">
+      <div class="seg" role="group" aria-label="View">
+        <button id="v_list" aria-pressed="true">Day by day</button><button id="v_map" aria-pressed="false">Map</button><button id="v_stays" aria-pressed="false">Stays</button><button id="v_extras" aria-pressed="false">Extras</button>
+      </div>
+      <button class="btn primary" id="btnSave" hidden>Save to my trips</button>
+      <button class="btn" id="btnShare">Share</button>
+      <button class="btn" id="btnPrint">Print / PDF</button>
+    </div>
+  </div></header>
+  <main class="wrap">
+    <div class="disc-line no-print"><span>⚠</span><span>This plan is an AI-made suggestion. Check opening times, roads, tickets and entry rules before you go. <a href="#about">Disclaimer</a></span></div>
+    <div id="view"></div>
+    <section id="mapView" hidden>
+      <div class="mapbar"><select id="mapDay" aria-label="Show day"></select><span class="note" id="mapSum"></span></div>
+      <div id="map"></div>
+      <p class="note" style="margin-top:8px">Road routes from OpenStreetMap (OSRM). Dashed lines are estimates while the route loads. Gold pins are hidden gems.</p>
+    </section>
+    <p style="margin-top:28px"><a class="btn" href="#plan?new=1">Plan your own trip</a></p>
+  </main>
+</div>
+
+<footer class="site"><div class="wrap">
+  <span>© 2026 Create Your Own Trip · Trips are AI-made suggestions, not bookings or advice. <a href="#about">Full disclaimer</a></span>
+  <span><a href="legal.html">Imprint &amp; privacy</a> · Maps © OpenStreetMap contributors</span>
+</div></footer>
+<div id="overlay"></div>
+<div id="toast" class="toast" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
