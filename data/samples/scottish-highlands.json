@@ -1,0 +1,423 @@
+{
+ "version": 1,
+ "id": "scottish-highlands",
+ "sample": true,
+ "title": "Lochs, Glens & Skye",
+ "summary": "A week-long loop from Inverness: Loch Ness, three nights on the Isle of Skye, the Road to the Isles by ferry, Glencoe and the Cairngorms.",
+ "dest": "Scottish Highlands",
+ "start": "2027-05-15",
+ "end": "2027-05-22",
+ "cfg": {
+  "country": "United Kingdom",
+  "region": "the Scottish Highlands",
+  "hub": "Inverness Airport",
+  "hubLat": 57.5425,
+  "hubLng": -4.0475,
+  "timeZone": "Europe/London",
+  "lang": "en",
+  "tourismSite": "visitscotland.com",
+  "center": [
+   57.2,
+   -5.0
+  ],
+  "zoom": 7,
+  "currency": "GBP"
+ },
+ "answers": {
+  "dest": "Scottish Highlands",
+  "from": "Inverness Airport",
+  "adults": 2,
+  "ages": [],
+  "pace": "balanced",
+  "interests": [
+   "Nature & hiking",
+   "Scenic drives",
+   "Lakes & mountains",
+   "Museums & history"
+  ],
+  "stay": "comfort",
+  "gems": 1,
+  "wishes": "",
+  "start": "2027-05-15",
+  "end": "2027-05-22"
+ },
+ "art": {
+  "sky": [
+   "#2c4a6e",
+   "#8fa9c0"
+  ],
+  "hills": [
+   "#3e5c55",
+   "#24392f"
+  ],
+  "sun": "#e8eef2"
+ },
+ "stages": [
+  {
+   "id": "s1",
+   "title": "Inverness",
+   "nights": 1,
+   "base": "Inverness",
+   "lat": 57.4778,
+   "lng": -4.2247,
+   "ss": "Inverness, United Kingdom",
+   "why": "Close to the airport for an easy first evening.",
+   "from": "2027-05-15"
+  },
+  {
+   "id": "s2",
+   "title": "Isle of Skye",
+   "nights": 3,
+   "base": "Portree",
+   "lat": 57.4129,
+   "lng": -6.1946,
+   "ss": "Portree, United Kingdom",
+   "why": "Central on Skye, so every corner of the island is within an hour.",
+   "from": "2027-05-16"
+  },
+  {
+   "id": "s3",
+   "title": "Glencoe & Ben Nevis",
+   "nights": 2,
+   "base": "Fort William",
+   "lat": 56.8198,
+   "lng": -5.1052,
+   "ss": "Fort William, United Kingdom",
+   "why": "Between Glencoe and Glen Nevis, with plenty of places to stay.",
+   "from": "2027-05-19"
+  },
+  {
+   "id": "s4",
+   "title": "Cairngorms",
+   "nights": 1,
+   "base": "Aviemore",
+   "lat": 57.195,
+   "lng": -3.826,
+   "ss": "Aviemore, United Kingdom",
+   "why": "Pine forests and lochs, under an hour from the airport.",
+   "from": "2027-05-21"
+  }
+ ],
+ "days": [
+  {
+   "date": "2027-05-15",
+   "title": "Arrival",
+   "text": "Pick up the car and ease in with Scotland's history, a short drive east of the airport.",
+   "stops": [
+    "culloden",
+    "clava"
+   ],
+   "tip": "Culloden visitor centre has set opening hours; the battlefield itself is open all the time."
+  },
+  {
+   "date": "2027-05-16",
+   "title": "Loch Ness to Skye",
+   "text": "Follow the Great Glen along Loch Ness, then west to the most photographed castle in Scotland and over the bridge to Skye.",
+   "stops": [
+    "urquhart",
+    "eilean"
+   ],
+   "tip": "Single-track roads start after Kyle of Lochalsh: use the passing places."
+  },
+  {
+   "date": "2027-05-17",
+   "title": "Trotternish loop",
+   "text": "A full loop of the northern peninsula with Skye's famous rock formations.",
+   "stops": [
+    "storr",
+    "kilt",
+    "quiraing"
+   ],
+   "tip": "Start early: the Storr car park fills by mid-morning."
+  },
+  {
+   "date": "2027-05-18",
+   "title": "West Skye",
+   "text": "Crystal pools under the Cuillin, a distillery tour and a white beach most visitors skip.",
+   "stops": [
+    "fairy",
+    "talisker",
+    "coral"
+   ],
+   "tip": "Fairy Pools parking is paid; the path is muddy after rain."
+  },
+  {
+   "date": "2027-05-19",
+   "title": "Road to the Isles",
+   "text": "Ferry from Armadale to Mallaig, then silver beaches and the viaduct from the films on the way to Fort William.",
+   "stops": [
+    "ferry",
+    "morar",
+    "glenfinnan"
+   ],
+   "tip": "Book the Armadale–Mallaig ferry ahead in summer."
+  },
+  {
+   "date": "2027-05-20",
+   "title": "Glencoe",
+   "text": "The most dramatic glen in Scotland, then a short gorge walk to a hidden waterfall in Glen Nevis.",
+   "stops": [
+    "glencoe",
+    "lostvalley",
+    "steall"
+   ],
+   "tip": "The Lost Valley path is rough and crosses a stream: good boots needed."
+  },
+  {
+   "date": "2027-05-21",
+   "title": "Into the Cairngorms",
+   "text": "East through the hills, past a ruined barracks on a mound, to a loch with an island castle.",
+   "stops": [
+    "commando",
+    "ruthven",
+    "eilein"
+   ],
+   "tip": "Loch an Eilein has a small paid car park."
+  },
+  {
+   "date": "2027-05-22",
+   "title": "Departure",
+   "text": "A short morning drive back to the airport.",
+   "stops": [],
+   "tip": ""
+  }
+ ],
+ "entries": [
+  {
+   "id": "culloden",
+   "type": "poi",
+   "title": "Culloden Battlefield",
+   "place": "Culloden",
+   "lat": 57.4776,
+   "lng": -4.0932,
+   "notes": "Site of the 1746 battle that ended the Jacobite rising, with a strong visitor centre."
+  },
+  {
+   "id": "clava",
+   "type": "poi",
+   "title": "Clava Cairns",
+   "place": "Culloden",
+   "lat": 57.4734,
+   "lng": -4.0735,
+   "notes": "Bronze Age burial cairns among old beech trees, five minutes from Culloden.",
+   "gem": true,
+   "why": "Free, quiet and atmospheric, yet most battlefield visitors drive past."
+  },
+  {
+   "id": "urquhart",
+   "type": "poi",
+   "title": "Urquhart Castle",
+   "place": "Drumnadrochit",
+   "lat": 57.3242,
+   "lng": -4.4417,
+   "notes": "Ruined castle on the shore of Loch Ness, the classic Nessie lookout."
+  },
+  {
+   "id": "eilean",
+   "type": "poi",
+   "title": "Eilean Donan Castle",
+   "place": "Dornie",
+   "lat": 57.274,
+   "lng": -5.5163,
+   "notes": "Restored castle on a tidal island where three lochs meet."
+  },
+  {
+   "id": "storr",
+   "type": "poi",
+   "title": "Old Man of Storr",
+   "place": "Trotternish, Skye",
+   "lat": 57.5074,
+   "lng": -6.183,
+   "notes": "Rock pinnacle above the coast; about 1.5 hours return on a steep path."
+  },
+  {
+   "id": "kilt",
+   "type": "poi",
+   "title": "Kilt Rock & Mealt Falls",
+   "place": "Staffin, Skye",
+   "lat": 57.6105,
+   "lng": -6.17,
+   "notes": "Sea cliff with a waterfall dropping straight into the sea; viewpoint next to the car park."
+  },
+  {
+   "id": "quiraing",
+   "type": "poi",
+   "title": "Quiraing",
+   "place": "Trotternish, Skye",
+   "lat": 57.6283,
+   "lng": -6.2905,
+   "notes": "Landslip landscape of cliffs and pinnacles; walk part of the ridge path for the views."
+  },
+  {
+   "id": "fairy",
+   "type": "poi",
+   "title": "Fairy Pools",
+   "place": "Glenbrittle, Skye",
+   "lat": 57.2496,
+   "lng": -6.2715,
+   "notes": "Clear blue pools and waterfalls below the Black Cuillin, about 40 minutes walk each way."
+  },
+  {
+   "id": "talisker",
+   "type": "poi",
+   "title": "Talisker Distillery",
+   "place": "Carbost, Skye",
+   "lat": 57.3022,
+   "lng": -6.357,
+   "notes": "Skye's oldest working distillery; tours are popular, so book ahead."
+  },
+  {
+   "id": "coral",
+   "type": "poi",
+   "title": "Coral Beach",
+   "place": "Claigan, Skye",
+   "lat": 57.554,
+   "lng": -6.638,
+   "notes": "A bright white beach made of crushed coralline seaweed, a 20-minute walk from the road end.",
+   "gem": true,
+   "why": "Far from the main loop, so it is often quiet even in summer."
+  },
+  {
+   "id": "ferry",
+   "type": "other",
+   "title": "Ferry Armadale → Mallaig",
+   "place": "Armadale, Skye",
+   "lat": 57.0646,
+   "lng": -5.8952,
+   "notes": "About 45 minutes across the Sound of Sleat; car spaces sell out in summer."
+  },
+  {
+   "id": "morar",
+   "type": "poi",
+   "title": "Silver Sands of Morar",
+   "place": "Morar",
+   "lat": 56.958,
+   "lng": -5.83,
+   "notes": "A string of white beaches with views to the islands of Eigg and Rum.",
+   "gem": true,
+   "why": "One of the finest beaches in the Highlands, on a road most people only drive through."
+  },
+  {
+   "id": "glenfinnan",
+   "type": "poi",
+   "title": "Glenfinnan Viaduct & Monument",
+   "place": "Glenfinnan",
+   "lat": 56.8762,
+   "lng": -5.4316,
+   "notes": "The curved railway viaduct known from the Harry Potter films, above Loch Shiel."
+  },
+  {
+   "id": "glencoe",
+   "type": "poi",
+   "title": "Glencoe Visitor Centre",
+   "place": "Glencoe",
+   "lat": 56.67,
+   "lng": -5.079,
+   "notes": "Exhibitions, walks and the best overview of the glen's geology and history."
+  },
+  {
+   "id": "lostvalley",
+   "type": "poi",
+   "title": "Lost Valley (Coire Gabhail) walk",
+   "place": "Glencoe",
+   "lat": 56.6698,
+   "lng": -5.005,
+   "notes": "A hidden valley between the Three Sisters, about 3 hours return."
+  },
+  {
+   "id": "steall",
+   "type": "poi",
+   "title": "Steall Falls gorge walk",
+   "place": "Glen Nevis",
+   "lat": 56.771,
+   "lng": -4.994,
+   "notes": "A short gorge path to a meadow with one of Scotland's highest waterfalls.",
+   "gem": true,
+   "why": "Feels remote but starts from a road-end car park near Fort William."
+  },
+  {
+   "id": "commando",
+   "type": "poi",
+   "title": "Commando Memorial",
+   "place": "Spean Bridge",
+   "lat": 56.9147,
+   "lng": -4.9333,
+   "notes": "Memorial with wide views over Ben Nevis and the Great Glen."
+  },
+  {
+   "id": "ruthven",
+   "type": "poi",
+   "title": "Ruthven Barracks",
+   "place": "Kingussie",
+   "lat": 57.0713,
+   "lng": -4.0393,
+   "notes": "Roofless 18th-century barracks on a mound, free to visit.",
+   "gem": true,
+   "why": "An easy, free stop with real history, rarely busy."
+  },
+  {
+   "id": "eilein",
+   "type": "poi",
+   "title": "Loch an Eilein",
+   "place": "Rothiemurchus",
+   "lat": 57.152,
+   "lng": -3.827,
+   "notes": "Flat loch-side walk through Caledonian pine forest to a castle on an island."
+  }
+ ],
+ "extras": {
+  "season": "May is one of the driest months in the Highlands, with long days and fewer midges than July and August.",
+  "bookBy": [
+   {
+    "weeks": 16,
+    "what": "Accommodation on Skye: it fills up first."
+   },
+   {
+    "weeks": 10,
+    "what": "Car and the Armadale–Mallaig ferry."
+   },
+   {
+    "weeks": 4,
+    "what": "Talisker Distillery tour."
+   },
+   {
+    "weeks": 1,
+    "what": "Check the weather for the hill walks and pack midge repellent."
+   }
+  ],
+  "packing": [
+   "Waterproof jacket and trousers",
+   "Walking boots",
+   "Warm layers",
+   "Midge repellent",
+   "Car phone holder and charger",
+   "Offline maps (signal is patchy)",
+   "Small backpack and water bottle"
+  ],
+  "documents": [
+   "Passport or ID card",
+   "Driving licence",
+   "Car hire booking and credit card",
+   "Travel insurance",
+   "Ferry booking"
+  ],
+  "budget": {
+   "currency": "GBP",
+   "low": 110,
+   "high": 210,
+   "includes": "Accommodation, food, fuel, entry fees and the ferry, per person per day.",
+   "notes": "Skye is the most expensive part."
+  }
+ },
+ "notes": [
+  {
+   "kind": "tip",
+   "text": "Many Highland roads are single track. Pull into passing places to let others pass, and never park in them."
+  },
+  {
+   "kind": "tip",
+   "text": "Distances look short, but averages are slow on narrow roads: plan for about 50 km/h."
+  }
+ ],
+ "createdAt": "2026-10-23"
+}

@@ -1,0 +1,365 @@
+{
+ "version": 1,
+ "id": "central-chile",
+ "sample": true,
+ "title": "Andes to the Pacific",
+ "summary": "Nine nights from Santiago: colourful Valparaíso, the high Andes of the Cajón del Maipo, Colchagua wine country and the surf coast at Pichilemu.",
+ "dest": "Central Chile",
+ "start": "2027-11-06",
+ "end": "2027-11-15",
+ "cfg": {
+  "country": "Chile",
+  "region": "central Chile",
+  "hub": "Santiago Airport (SCL)",
+  "hubLat": -33.393,
+  "hubLng": -70.7858,
+  "timeZone": "America/Santiago",
+  "lang": "es",
+  "tourismSite": "chile.travel",
+  "center": [
+   -33.9,
+   -71.2
+  ],
+  "zoom": 7,
+  "currency": "CLP"
+ },
+ "answers": {
+  "dest": "Central Chile",
+  "from": "Santiago Airport",
+  "adults": 2,
+  "ages": [],
+  "pace": "balanced",
+  "interests": [
+   "Food & wine",
+   "Lakes & mountains",
+   "Beaches & coast",
+   "Cities"
+  ],
+  "stay": "value",
+  "gems": 2,
+  "wishes": "",
+  "start": "2027-11-06",
+  "end": "2027-11-15"
+ },
+ "art": {
+  "sky": [
+   "#3a6ea5",
+   "#f0b47a"
+  ],
+  "hills": [
+   "#6b5a7a",
+   "#3b324a"
+  ],
+  "sun": "#ffe9c4"
+ },
+ "stages": [
+  {
+   "id": "s1",
+   "title": "Valparaíso",
+   "nights": 2,
+   "base": "Valparaíso",
+   "lat": -33.042,
+   "lng": -71.627,
+   "ss": "Valparaíso, Chile",
+   "why": "Stay on Cerro Alegre or Cerro Concepción to walk everywhere.",
+   "from": "2027-11-06"
+  },
+  {
+   "id": "s2",
+   "title": "Cajón del Maipo",
+   "nights": 2,
+   "base": "San José de Maipo",
+   "lat": -33.641,
+   "lng": -70.353,
+   "ss": "San José de Maipo, Chile",
+   "why": "Cabins in the canyon, close to the high-mountain roads.",
+   "from": "2027-11-08"
+  },
+  {
+   "id": "s3",
+   "title": "Colchagua Valley",
+   "nights": 2,
+   "base": "Santa Cruz",
+   "lat": -34.639,
+   "lng": -71.365,
+   "ss": "Santa Cruz, Chile",
+   "why": "The heart of the wine valley.",
+   "from": "2027-11-10"
+  },
+  {
+   "id": "s4",
+   "title": "Pichilemu",
+   "nights": 2,
+   "base": "Pichilemu",
+   "lat": -34.387,
+   "lng": -72.003,
+   "ss": "Pichilemu, Chile",
+   "why": "Chile's surf capital, with cabins on the cliffs.",
+   "from": "2027-11-12"
+  },
+  {
+   "id": "s5",
+   "title": "Santiago",
+   "nights": 1,
+   "base": "Santiago",
+   "lat": -33.4372,
+   "lng": -70.6506,
+   "ss": "Santiago, Chile",
+   "why": "One night in the city before the flight.",
+   "from": "2027-11-14"
+  }
+ ],
+ "days": [
+  {
+   "date": "2027-11-06",
+   "title": "Arrival",
+   "text": "From the airport through the Casablanca wine valley to the port city.",
+   "stops": [
+    "casablanca"
+   ],
+   "tip": "Valparaíso's hills are steep and narrow: park once and walk."
+  },
+  {
+   "date": "2027-11-07",
+   "title": "Valparaíso",
+   "text": "Funiculars, street art and Neruda's house above the bay.",
+   "stops": [
+    "sebastiana",
+    "ascensores"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-11-08",
+   "title": "Coast to the Andes",
+   "text": "South along the coast to Neruda's seaside house, then east into the mountains.",
+   "stops": [
+    "islanegra"
+   ],
+   "tip": "Isla Negra is closed on Mondays."
+  },
+  {
+   "date": "2027-11-09",
+   "title": "High Andes",
+   "text": "A turquoise reservoir under glaciers and hot springs at the end of the road.",
+   "stops": [
+    "yeso",
+    "colina"
+   ],
+   "tip": "The road to El Yeso is unpaved and access can be restricted: check before you go."
+  },
+  {
+   "date": "2027-11-10",
+   "title": "To Colchagua",
+   "text": "Down the central valley to wine country.",
+   "stops": [
+    "museo"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-11-11",
+   "title": "Wine day",
+   "text": "Vineyard visits and a sleepy village of adobe houses.",
+   "stops": [
+    "lapostolle",
+    "lolol"
+   ],
+   "tip": "Winery tours need a reservation; don't drive after tastings."
+  },
+  {
+   "date": "2027-11-12",
+   "title": "To the coast",
+   "text": "West to the Pacific and the big-wave point at Punta de Lobos.",
+   "stops": [
+    "lobos"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-11-13",
+   "title": "Salt and lagoons",
+   "text": "Old salt pans worked by hand, and a lagoon village for fresh seafood.",
+   "stops": [
+    "cahuil"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-11-14",
+   "title": "To Santiago",
+   "text": "Back to the capital for sunset over the city from the hill.",
+   "stops": [
+    "sancristobal"
+   ],
+   "tip": "Santiago traffic is heavy in the evening rush."
+  },
+  {
+   "date": "2027-11-15",
+   "title": "Departure",
+   "text": "An easy drive to the airport.",
+   "stops": [],
+   "tip": ""
+  }
+ ],
+ "entries": [
+  {
+   "id": "casablanca",
+   "type": "poi",
+   "title": "Casablanca Valley wineries",
+   "place": "Casablanca",
+   "lat": -33.319,
+   "lng": -71.408,
+   "notes": "Cool-climate white wines; several wineries along Ruta 68 offer tastings."
+  },
+  {
+   "id": "sebastiana",
+   "type": "poi",
+   "title": "La Sebastiana",
+   "place": "Valparaíso",
+   "lat": -33.048,
+   "lng": -71.623,
+   "notes": "Pablo Neruda's quirky house with views over the bay."
+  },
+  {
+   "id": "ascensores",
+   "type": "poi",
+   "title": "Ascensores & Cerro Alegre",
+   "place": "Valparaíso",
+   "lat": -33.042,
+   "lng": -71.627,
+   "notes": "Historic funiculars and the colourful streets of Cerro Alegre and Concepción."
+  },
+  {
+   "id": "islanegra",
+   "type": "poi",
+   "title": "Casa de Isla Negra",
+   "place": "Isla Negra",
+   "lat": -33.442,
+   "lng": -71.685,
+   "notes": "Neruda's seaside home full of ship figureheads, with his grave by the sea."
+  },
+  {
+   "id": "yeso",
+   "type": "poi",
+   "title": "Embalse El Yeso",
+   "place": "Cajón del Maipo",
+   "lat": -33.676,
+   "lng": -70.088,
+   "notes": "Turquoise reservoir surrounded by high Andes peaks at 2,500 m."
+  },
+  {
+   "id": "colina",
+   "type": "poi",
+   "title": "Termas Valle de Colina",
+   "place": "Cajón del Maipo",
+   "lat": -33.853,
+   "lng": -69.99,
+   "notes": "Natural hot pools on a mountain slope at the very end of the valley.",
+   "gem": true,
+   "why": "Simple, wild and far up the valley; few tourists make it this far."
+  },
+  {
+   "id": "museo",
+   "type": "poi",
+   "title": "Museo de Colchagua",
+   "place": "Santa Cruz",
+   "lat": -34.64,
+   "lng": -71.364,
+   "notes": "Large private museum of Chilean history and archaeology."
+  },
+  {
+   "id": "lapostolle",
+   "type": "poi",
+   "title": "Colchagua vineyard visit",
+   "place": "Apalta",
+   "lat": -34.61,
+   "lng": -71.3,
+   "notes": "The Apalta hills are home to some of Chile's best red wines; book a tour ahead."
+  },
+  {
+   "id": "lolol",
+   "type": "poi",
+   "title": "Lolol village",
+   "place": "Lolol",
+   "lat": -34.727,
+   "lng": -71.645,
+   "notes": "Colonial adobe houses with long verandas, a national monument zone.",
+   "gem": true,
+   "why": "A real country village, off the usual wine-route circuit."
+  },
+  {
+   "id": "lobos",
+   "type": "poi",
+   "title": "Punta de Lobos",
+   "place": "Pichilemu",
+   "lat": -34.424,
+   "lng": -72.042,
+   "notes": "World-famous big-wave point with sea stacks and clifftop walks."
+  },
+  {
+   "id": "cahuil",
+   "type": "poi",
+   "title": "Cáhuil salt pans & lagoon",
+   "place": "Cáhuil",
+   "lat": -34.488,
+   "lng": -72.006,
+   "notes": "Salt harvested by hand for centuries, next to a lagoon with fish restaurants.",
+   "gem": true,
+   "why": "Most surfers never leave Pichilemu, but this is 15 minutes south."
+  },
+  {
+   "id": "sancristobal",
+   "type": "poi",
+   "title": "Cerro San Cristóbal",
+   "place": "Santiago",
+   "lat": -33.425,
+   "lng": -70.633,
+   "notes": "Hill in the city with a funicular and views to the Andes."
+  }
+ ],
+ "extras": {
+  "season": "November is spring: warm days, snow still on the Andes and few crowds before the summer holidays.",
+  "bookBy": [
+   {
+    "weeks": 8,
+    "what": "Car hire and the cabins in the Cajón del Maipo."
+   },
+   {
+    "weeks": 4,
+    "what": "Winery tours in Colchagua."
+   },
+   {
+    "weeks": 1,
+    "what": "Check that the road to El Yeso is open."
+   }
+  ],
+  "packing": [
+   "Sunscreen and sunglasses (strong sun)",
+   "Warm jacket for the mountains",
+   "Swimwear for the hot springs",
+   "Walking shoes",
+   "Car charger and offline maps"
+  ],
+  "documents": [
+   "Passport",
+   "Driving licence (and an International Driving Permit)",
+   "Car hire booking and credit card",
+   "Travel insurance"
+  ],
+  "budget": {
+   "currency": "CLP",
+   "low": 70000,
+   "high": 140000,
+   "includes": "Accommodation, food, fuel, tolls and entry fees, per person per day.",
+   "notes": "Motorway tolls are electronic: ask the car hire company about the TAG."
+  }
+ },
+ "notes": [
+  {
+   "kind": "tip",
+   "text": "Chilean motorways use electronic tolls (TAG). Most rental cars have one; check when you pick up the car."
+  }
+ ],
+ "createdAt": "2026-10-23"
+}

@@ -1,0 +1,86 @@
+[
+ {
+  "id": "scottish-highlands",
+  "title": "Lochs, Glens & Skye",
+  "dest": "Scottish Highlands",
+  "summary": "A week-long loop from Inverness: Loch Ness, three nights on the Isle of Skye, the Road to the Isles by ferry, Glencoe and the Cairngorms.",
+  "nights": 7,
+  "stages": 4,
+  "places": 19,
+  "gems": 5,
+  "month": "May",
+  "interests": [
+   "Nature & hiking",
+   "Scenic drives",
+   "Lakes & mountains",
+   "Museums & history"
+  ],
+  "art": {
+   "sky": [
+    "#2c4a6e",
+    "#8fa9c0"
+   ],
+   "hills": [
+    "#3e5c55",
+    "#24392f"
+   ],
+   "sun": "#e8eef2"
+  }
+ },
+ {
+  "id": "andalusia",
+  "title": "White Villages & Moorish Cities",
+  "dest": "Andalusia",
+  "summary": "Eight nights from Málaga: the Alhambra in Granada, the Mezquita in Córdoba, Seville's palaces and two nights in the mountains around Ronda.",
+  "nights": 8,
+  "stages": 4,
+  "places": 12,
+  "gems": 3,
+  "month": "April",
+  "interests": [
+   "Old towns & villages",
+   "Museums & history",
+   "Food & wine",
+   "Scenic drives"
+  ],
+  "art": {
+   "sky": [
+    "#d98a4e",
+    "#f4d6a0"
+   ],
+   "hills": [
+    "#b0703f",
+    "#7c4a2b"
+   ],
+   "sun": "#fff3d6"
+  }
+ },
+ {
+  "id": "central-chile",
+  "title": "Andes to the Pacific",
+  "dest": "Central Chile",
+  "summary": "Nine nights from Santiago: colourful Valparaíso, the high Andes of the Cajón del Maipo, Colchagua wine country and the surf coast at Pichilemu.",
+  "nights": 9,
+  "stages": 5,
+  "places": 12,
+  "gems": 3,
+  "month": "November",
+  "interests": [
+   "Food & wine",
+   "Lakes & mountains",
+   "Beaches & coast",
+   "Cities"
+  ],
+  "art": {
+   "sky": [
+    "#3a6ea5",
+    "#f0b47a"
+   ],
+   "hills": [
+    "#6b5a7a",
+    "#3b324a"
+   ],
+   "sun": "#ffe9c4"
+  }
+ }
+]

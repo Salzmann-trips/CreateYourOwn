@@ -1,0 +1,351 @@
+{
+ "version": 1,
+ "id": "andalusia",
+ "sample": true,
+ "title": "White Villages & Moorish Cities",
+ "summary": "Eight nights from Málaga: the Alhambra in Granada, the Mezquita in Córdoba, Seville's palaces and two nights in the mountains around Ronda.",
+ "dest": "Andalusia",
+ "start": "2027-04-10",
+ "end": "2027-04-18",
+ "cfg": {
+  "country": "Spain",
+  "region": "Andalusia",
+  "hub": "Málaga Airport",
+  "hubLat": 36.6749,
+  "hubLng": -4.4991,
+  "timeZone": "Europe/Madrid",
+  "lang": "es",
+  "tourismSite": "andalucia.org",
+  "center": [
+   37.2,
+   -4.9
+  ],
+  "zoom": 7,
+  "currency": "EUR"
+ },
+ "answers": {
+  "dest": "Andalusia",
+  "from": "Málaga Airport",
+  "adults": 2,
+  "ages": [],
+  "pace": "balanced",
+  "interests": [
+   "Old towns & villages",
+   "Museums & history",
+   "Food & wine",
+   "Scenic drives"
+  ],
+  "stay": "special",
+  "gems": 1,
+  "wishes": "",
+  "start": "2027-04-10",
+  "end": "2027-04-18"
+ },
+ "art": {
+  "sky": [
+   "#d98a4e",
+   "#f4d6a0"
+  ],
+  "hills": [
+   "#b0703f",
+   "#7c4a2b"
+  ],
+  "sun": "#fff3d6"
+ },
+ "stages": [
+  {
+   "id": "s1",
+   "title": "Granada",
+   "nights": 2,
+   "base": "Granada",
+   "lat": 37.1773,
+   "lng": -3.5986,
+   "ss": "Granada, Spain",
+   "why": "Two nights so the Alhambra gets a full, unhurried day.",
+   "from": "2027-04-10"
+  },
+  {
+   "id": "s2",
+   "title": "Córdoba",
+   "nights": 2,
+   "base": "Córdoba",
+   "lat": 37.8882,
+   "lng": -4.7794,
+   "ss": "Córdoba, Spain",
+   "why": "Stay in the old town to walk to the Mezquita.",
+   "from": "2027-04-12"
+  },
+  {
+   "id": "s3",
+   "title": "Seville",
+   "nights": 2,
+   "base": "Seville",
+   "lat": 37.3891,
+   "lng": -5.9845,
+   "ss": "Seville, Spain",
+   "why": "Pick a hotel with parking, or park once and walk.",
+   "from": "2027-04-14"
+  },
+  {
+   "id": "s4",
+   "title": "Serranía de Ronda",
+   "nights": 2,
+   "base": "Ronda",
+   "lat": 36.7462,
+   "lng": -5.1612,
+   "ss": "Ronda, Spain",
+   "why": "Mountain town between the white villages and the gorge walk.",
+   "from": "2027-04-16"
+  }
+ ],
+ "days": [
+  {
+   "date": "2027-04-10",
+   "title": "Arrival",
+   "text": "From Málaga up into the Sierra Nevada foothills; sunset over the Alhambra from the Albaicín.",
+   "stops": [
+    "sannicolas"
+   ],
+   "tip": "Parking in the Albaicín is restricted; walk up from the centre."
+  },
+  {
+   "date": "2027-04-11",
+   "title": "The Alhambra",
+   "text": "A full day for the palaces and gardens, then tapas in the old town.",
+   "stops": [
+    "alhambra"
+   ],
+   "tip": "Alhambra tickets are timed and sell out weeks ahead."
+  },
+  {
+   "date": "2027-04-12",
+   "title": "To Córdoba",
+   "text": "Through olive country with a stop in a baroque hill town.",
+   "stops": [
+    "priego"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-04-13",
+   "title": "Córdoba",
+   "text": "The great mosque-cathedral in the morning and the caliphs' palace city in the afternoon.",
+   "stops": [
+    "mezquita",
+    "azahara"
+   ],
+   "tip": "Medina Azahara is reached by a shuttle bus from the visitor centre."
+  },
+  {
+   "date": "2027-04-14",
+   "title": "To Seville",
+   "text": "A short drive with a stop in a hilltop town of Roman roots.",
+   "stops": [
+    "carmona"
+   ],
+   "tip": ""
+  },
+  {
+   "date": "2027-04-15",
+   "title": "Seville",
+   "text": "Royal palace, the grand Plaza de España and an evening in Triana.",
+   "stops": [
+    "alcazar",
+    "plazaesp"
+   ],
+   "tip": "Book Real Alcázar tickets online to skip the queue."
+  },
+  {
+   "date": "2027-04-16",
+   "title": "White villages",
+   "text": "Into the Sierra de Grazalema: a village under a castle and one built into the rock.",
+   "stops": [
+    "zahara",
+    "setenil"
+   ],
+   "tip": "Mountain roads are narrow and winding: allow extra time."
+  },
+  {
+   "date": "2027-04-17",
+   "title": "Caminito del Rey",
+   "text": "The famous boardwalk through the Gaitanes gorge, then the bridge over Ronda's gorge at sunset.",
+   "stops": [
+    "caminito",
+    "puente"
+   ],
+   "tip": "Caminito del Rey needs a timed ticket; it is about a 1-hour drive from Ronda."
+  },
+  {
+   "date": "2027-04-18",
+   "title": "Departure",
+   "text": "Down from the mountains to Málaga airport.",
+   "stops": [],
+   "tip": "Allow about 2 hours for the drive."
+  }
+ ],
+ "entries": [
+  {
+   "id": "sannicolas",
+   "type": "poi",
+   "title": "Mirador de San Nicolás",
+   "place": "Albaicín, Granada",
+   "lat": 37.181,
+   "lng": -3.5927,
+   "notes": "The classic viewpoint over the Alhambra with the Sierra Nevada behind."
+  },
+  {
+   "id": "alhambra",
+   "type": "poi",
+   "title": "Alhambra & Generalife",
+   "place": "Granada",
+   "lat": 37.1761,
+   "lng": -3.5881,
+   "notes": "Nasrid palaces, fortress and gardens; the palaces have a fixed entry time on the ticket."
+  },
+  {
+   "id": "priego",
+   "type": "poi",
+   "title": "Priego de Córdoba",
+   "place": "Priego de Córdoba",
+   "lat": 37.438,
+   "lng": -4.195,
+   "notes": "Baroque churches, fountains and a whitewashed old quarter, the Barrio de la Villa.",
+   "gem": true,
+   "why": "Called the jewel of Córdoba's baroque, but few foreign visitors stop."
+  },
+  {
+   "id": "mezquita",
+   "type": "poi",
+   "title": "Mezquita-Catedral",
+   "place": "Córdoba",
+   "lat": 37.8789,
+   "lng": -4.7794,
+   "notes": "A forest of striped arches with a cathedral built inside it."
+  },
+  {
+   "id": "azahara",
+   "type": "poi",
+   "title": "Medina Azahara",
+   "place": "Córdoba",
+   "lat": 37.888,
+   "lng": -4.867,
+   "notes": "Ruins of a 10th-century palace city, a UNESCO World Heritage Site."
+  },
+  {
+   "id": "carmona",
+   "type": "poi",
+   "title": "Carmona",
+   "place": "Carmona",
+   "lat": 37.471,
+   "lng": -5.642,
+   "notes": "Hilltop old town with Roman gates and a parador above the plain.",
+   "gem": true,
+   "why": "Thirty minutes from Seville, with a fraction of the crowds."
+  },
+  {
+   "id": "alcazar",
+   "type": "poi",
+   "title": "Real Alcázar",
+   "place": "Seville",
+   "lat": 37.3831,
+   "lng": -5.9902,
+   "notes": "Royal palace in Mudéjar style with large gardens."
+  },
+  {
+   "id": "plazaesp",
+   "type": "poi",
+   "title": "Plaza de España",
+   "place": "Seville",
+   "lat": 37.3772,
+   "lng": -5.9869,
+   "notes": "Huge 1929 square with tiled alcoves for every Spanish province."
+  },
+  {
+   "id": "zahara",
+   "type": "poi",
+   "title": "Zahara de la Sierra",
+   "place": "Zahara de la Sierra",
+   "lat": 36.84,
+   "lng": -5.391,
+   "notes": "White village below a Moorish castle, above a turquoise reservoir."
+  },
+  {
+   "id": "setenil",
+   "type": "poi",
+   "title": "Setenil de las Bodegas",
+   "place": "Setenil de las Bodegas",
+   "lat": 36.863,
+   "lng": -5.181,
+   "notes": "Houses built under overhanging rock along the river gorge.",
+   "gem": true,
+   "why": "Unlike any other white village; quiet before midday."
+  },
+  {
+   "id": "caminito",
+   "type": "poi",
+   "title": "Caminito del Rey",
+   "place": "Ardales",
+   "lat": 36.9228,
+   "lng": -4.7953,
+   "notes": "Boardwalk along the walls of the Gaitanes gorge, about 3 hours one way with a shuttle back."
+  },
+  {
+   "id": "puente",
+   "type": "poi",
+   "title": "Puente Nuevo",
+   "place": "Ronda",
+   "lat": 36.741,
+   "lng": -5.166,
+   "notes": "18th-century bridge across the 100-metre-deep El Tajo gorge."
+  }
+ ],
+ "extras": {
+  "season": "April is ideal: warm, green and before the summer heat. Easter week (Semana Santa) brings processions and higher prices.",
+  "bookBy": [
+   {
+    "weeks": 12,
+    "what": "Alhambra tickets (they sell out)."
+   },
+   {
+    "weeks": 8,
+    "what": "Hotels in Seville and Granada, especially around Easter."
+   },
+   {
+    "weeks": 6,
+    "what": "Caminito del Rey tickets."
+   },
+   {
+    "weeks": 2,
+    "what": "Real Alcázar and Mezquita tickets online."
+   }
+  ],
+  "packing": [
+   "Comfortable walking shoes",
+   "Sun hat and sunscreen",
+   "Light layers for cool evenings",
+   "Shoulder cover for churches",
+   "Refillable water bottle"
+  ],
+  "documents": [
+   "Passport or ID card",
+   "Driving licence",
+   "Car hire booking and credit card",
+   "Travel insurance",
+   "Printed or saved monument tickets"
+  ],
+  "budget": {
+   "currency": "EUR",
+   "low": 90,
+   "high": 180,
+   "includes": "Accommodation, food, fuel, tolls and entry fees, per person per day.",
+   "notes": "City parking can add 20–30 EUR a night."
+  }
+ },
+ "notes": [
+  {
+   "kind": "tip",
+   "text": "Old-town centres in Granada, Córdoba and Seville have restricted traffic zones. Ask your hotel how to reach it by car."
+  }
+ ],
+ "createdAt": "2026-10-23"
+}
